@@ -25,7 +25,7 @@ TODO: List your cookbook attributes here.
     <th>Default</th>
   </tr>
   <tr>
-    <td><tt>['dh-network']['bacon']</tt></td>
+    <td><tt>['pixel']['bacon']</tt></td>
     <td>Boolean</td>
     <td>whether to include bacon</td>
     <td><tt>true</tt></td>
@@ -38,13 +38,13 @@ Usage
 TODO: Write usage instructions for each cookbook.
 
 e.g.
-Just include `dh-network` in your node's `run_list`:
+Just include `pixel` in your node's `run_list`:
 
 ```json
 {
   "name":"my_node",
   "run_list": [
-    "recipe[dh-network]"
+    "recipe[pixel]"
   ]
 }
 ```
