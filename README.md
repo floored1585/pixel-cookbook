@@ -59,5 +59,5 @@ Contributing
 
 License and Authors
 -------------------
-Authors: Ian Clark
+Authors: Ian Clark  
 License: MIT. Be free!
