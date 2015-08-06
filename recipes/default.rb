@@ -40,6 +40,7 @@ cookbook_file '/home/pixel/.ssh/authorized_keys' do
   owner 'pixel'
   group 'pixel'
   action :create
+  ignore_failure true # Ignores failure in case this doesn't exist in the cookbook
 end
 
 
@@ -80,7 +81,7 @@ cookbook_file '/var/www/pixel/shared/config/settings.yaml' do
   owner 'pixel'
   group 'www-data'
   action :create_if_missing
-  ignore_failure true
+  ignore_failure true # Ignores failure in case this doesn't exist in the cookbook
 end
 file '/var/www/pixel/shared/config/hosts.yaml' do
   mode 0644
