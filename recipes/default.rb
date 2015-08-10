@@ -121,3 +121,10 @@ logrotate_app 'pixel' do
   rotate 14
   create '644 root root'
 end
+# Stop apache from restarting when its log rotates
+cookbook_file '/etc/logrotate.d/apache2' do
+  mode 0644
+  owner 'root'
+  group 'root'
+  action :create
+end

@@ -1,6 +1,6 @@
 Pixel Cookbook
 ===================
-This cookbook prepares a Ubuntu 14.04 server for [Pixel](https://github.com/floored1585/pixel) deployment
+This cookbook prepares an Ubuntu 14.04 server for [Pixel](https://github.com/floored1585/pixel) deployment
 
 Requirements
 ------------
