@@ -20,10 +20,17 @@ pkgs = [
   'libmysqlclient-dev',
   'libpq-dev',
   'nodejs',
+  'nodejs-legacy',
+  'npm',
+  'git',
 ]
-package pkgs.join(' ') do
-  action :install
+pkgs.each do |pkg|
+  package pkg do
+    action :install
+  end
 end
+
+execute 'npm install -g bower@1.5.2'
 
 # Create pixel user
 user 'pixel' do
