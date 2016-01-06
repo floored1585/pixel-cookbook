@@ -35,7 +35,6 @@ execute 'npm install -g bower@1.5.2'
 # Create pixel user
 user 'pixel' do
   uid 4000
-  gid 4000
   manage_home true
   home '/home/pixel'
   shell '/bin/bash'
