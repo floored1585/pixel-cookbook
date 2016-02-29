@@ -84,7 +84,7 @@ dirs.each do |dir|
     mode '0755'
   end
 end
-cookbook_file '/var/www/pixel/shared/config/settings.yaml' do
+cookbook_file '/var/www/pixel/shared/config/config.yaml' do
   mode 0644
   owner 'pixel'
   group 'www-data'

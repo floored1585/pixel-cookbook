@@ -5,8 +5,7 @@ This cookbook prepares an Ubuntu 14.04 server for [Pixel](https://github.com/flo
 Requirements
 ------------
 - Only tested on Ubuntu 14.04
-- You must create your own files/default/settings.yaml until I get around to making it a template.
-- You must create your own files/default/authorized_keys until I get around to making it a template.
+- You must create your own files/default/authorized_keys until I get around to making it an attribute or template.
 - Requires the following cookbooks:  
   - [chef-rvm](https://github.com/martinisoft/chef-rvm)  
   - [apache2](https://github.com/svanzoest-cookbooks/apache2)  
