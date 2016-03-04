@@ -23,6 +23,7 @@ pkgs = [
   'nodejs-legacy',
   'npm',
   'git',
+  'sendmail'
 ]
 pkgs.each do |pkg|
   package pkg do

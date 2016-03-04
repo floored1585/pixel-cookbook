@@ -22,7 +22,7 @@
 
 # Password for the database user
 #
-#pass: 'c53G6RWiLVkaa5Q'
+#pass: 'password'
 
 # Maximum connections to the database (per instance)
 #
