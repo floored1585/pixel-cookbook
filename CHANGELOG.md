@@ -3,6 +3,13 @@ pixel cookbook CHANGELOG
 
 This file is used to list changes made in each version of the pixel cookbook.
 
+0.2.8
+-----
+
+- Add config.yaml template
+- Fix apache config
+- Add sendmail
+
 0.2.3
 -----
 
